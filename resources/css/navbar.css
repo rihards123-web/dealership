@@ -1,5 +1,5 @@
 .mobile-nav-bar-container {
-        display: none;
+    display: none;
 }
 
 .mobile-nav-bar-links {
@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em 0;
+    margin-top: 1em;
 }
 
 .nav-bar-links ul {
@@ -25,6 +26,7 @@
     font-family: "Poppins";
     font-size: 18px;
 }
+
 
 .nav-bar-links li:last-child {
     padding-right: 10em;

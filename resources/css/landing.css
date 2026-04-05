@@ -11,7 +11,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10em;
+    margin-left: 15em;
 }
 
 .info-container h1{
@@ -54,4 +54,85 @@
     align-content: center;
     justify-content: center;
     padding: 2em;
+}
+/*  */
+
+.models-content {
+    width: 100%;
+    max-width: 1432px;
+    margin: 0 auto;
+}
+
+
+.landing-display-models {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.display-heading h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.display-models {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
+    margin-top: 2.5em;
+}
+
+#car_image {
+    width: 100%;
+    max-width: 422px;
+    height: auto;
+}
+
+/*  */
+.email-section-info-text {
+    margin-top: 7em;
+}
+
+.email-section-info-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 9.7em;
+}
+
+.email-section-info-text p {
+    font-size: 16px;
+    margin-left: 21.7em;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgb(110, 110, 110);
+    border-radius: 15px;
+    margin: 2em 21.7em;
+    padding: 8em 6em;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#form-input {
+    border-radius: 5px;
+    border: solid 1px rgb(110, 110, 110);
+}
+
+#form-submit {
+    border-radius: 5px;
+    border: solid 1px rgb(110, 110, 110);
+    background-color: black;
+    color: rgb(110, 110, 110);
+    padding: 0.5em 5em;
 }
