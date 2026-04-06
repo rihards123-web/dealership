@@ -6,6 +6,8 @@
     font-style: normal;
 }
 
+
+
 .landing {
     display: flex;
     flex-direction: row;
@@ -13,6 +15,7 @@
     justify-content: space-between;
     margin-left: 15em;
 }
+
 
 .info-container h1{
     font-size: 105px;
@@ -36,6 +39,7 @@
     margin-right: 0.5em;
 }
 
+
 @media only screen and (max-width: 1000px) {
     .info-container h1{
     font-size: 70px;
@@ -47,8 +51,7 @@
         flex-direction: column;
     }
  }
-
-
+/*  */
 .arrow-down {
     display: flex;
     align-content: center;
@@ -71,7 +74,6 @@
   
 }
 
-
 .display-heading h2 {
     font-size: 36px;
     font-weight: bold;
@@ -92,6 +94,13 @@
 }
 
 /*  */
+
+.email-container {
+    width: 100%;
+    max-width: 1432px;
+    margin: 0 auto;
+}
+
 .email-section-info-text {
     margin-top: 7em;
 }
@@ -99,21 +108,19 @@
 .email-section-info-text h2 {
     font-size: 36px;
     font-weight: bold;
-    margin-left: 9.7em;
 }
 
 .email-section-info-text p {
     font-size: 16px;
-    margin-left: 21.7em;
 }
 
-.email-container {
+.email-input-container {
     display: flex;
     align-items: center;
     justify-content: center;
     border: solid 1px rgb(110, 110, 110);
     border-radius: 15px;
-    margin: 2em 21.7em;
+    margin: 2em 0em;
     padding: 8em 6em;
 }
 
@@ -135,4 +142,55 @@
     background-color: black;
     color: rgb(110, 110, 110);
     padding: 0.5em 5em;
+}
+
+/*  */
+
+.weekly-highlight {
+    width: 100%;
+    max-width: 1432px;
+    margin: 7em auto;
+}
+
+.weekly-highlight h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.weekly-highlight-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    max-width: 1432px;
+    margin: 2em auto;
+    justify-content: space-between;
+}
+
+.weekly-highlight-img-car img {
+    max-width: 871px;
+    height: 492px;
+}
+
+.weekly-highlight-img-dash {
+    background-image: url('../images/TextMacan.png');
+    height: 492px;
+    width: 435px;
+    background-repeat: no-repeat;
+    padding: 4.5em;
+}
+
+.weekly-highlight-img-dash h3 {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.weekly-highlight-img-dash p {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 0.5em;
 }

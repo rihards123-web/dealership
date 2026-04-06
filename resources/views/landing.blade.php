@@ -10,20 +10,22 @@
 <body>
     @include('components.nav-bar')
     <section class="landing">
-        <div class="info-container">
-            <h1>
-                Quality, <br>
-                Safety, <br>
-                Transparency.
-            </h1>
+            <div class="info-container">
+                <h1>
+                    Quality, <br>
+                    Safety,  <br>
+                    Transparency.
+                </h1>
 
-            <div class="info-container-inventory">
-                <a href="">
-                View full inventory
-                </a>
-                <img src="{{ Vite::asset('resources/images/keyboard_arrow_right.svg') }}" alt="arrow">  
+                <div class="info-container-inventory">
+                    <a href="">
+                    View full inventory
+                    </a>
+                    <img src="{{ Vite::asset('resources/images/keyboard_arrow_right.svg') }}" alt="arrow">  
+                </div>
             </div>
-        </div>
+       
+     
 
          <div class="img-container">
             <img src="{{ Vite::asset('resources/images/porsche-model.png') }}" alt="Car">
@@ -55,30 +57,51 @@
     </section>
 
     <section class="email-section">
-        <div class="email-section-info-text">
-            <h2>Are you looking for a specific model?</h2>
-            <p>Leave your contact information so our team can get in touch with you!</p>
+        <div class="email-container">
+             <div class="email-section-info-text">
+                <h2>Are you looking for a specific model?</h2>
+                <p>Leave your contact information so our team can get in touch with you!</p>
+            </div>
+
+            <div class="email-input-container">
+                    <form action="">
+                        <div class="form-row">
+                            <input type="text" name="" id="form-input" placeholder="Model" required>
+                            <input type="text" name="" id="form-input" placeholder="Name" required>
+                            <input type="email" name="" id="form-input" placeholder="E-mail" required>
+                            <input type="tel" name="" id="form-input" placeholder="Number" required>
+                            <input type="submit" name="" id="form-submit">
+                        </div>
+                   
+                        <div class="checkbox-row">
+                            <label for="">
+                                    <input type="checkbox"> 
+                                    By LGPD terms, I agree to provide the data above so that Touring Cars can contact me to
+                                    present services. Your name, email, and phone number will be used
+                                    in accordance with our Privacy Policy.
+                            </label>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="weekly-highlight">
+        <div class="weekly-highlight-heading">
+            <h2>Weekly highlight</h2>
         </div>
 
-        <div class="email-container">
-                <form action="">
-                    <div class="form-row">
-                        <input type="text" name="" id="form-input" placeholder="Model" required>
-                        <input type="text" name="" id="form-input" placeholder="Name" required>
-                        <input type="email" name="" id="form-input" placeholder="E-mail" required>
-                        <input type="tel" name="" id="form-input" placeholder="Number" required>
-                        <input type="submit" name="" id="form-submit">
-                    </div>
-                   
-                    <div class="checkbox-row">
-                           <label for="">
-                                <input type="checkbox"> 
-                                  By LGPD terms, I agree to provide the data above so that Touring Cars can contact me to
-                                  present services. Your name, email, and phone number will be used
-                                  in accordance with our Privacy Policy.
-                            </label>
-                    </div>
-                </form>
+          <div class="weekly-highlight-image">
+            <div class="weekly-highlight-img-car">
+                <img src="{{ Vite::asset('resources/images/Macan.png') }}" alt="">
+            </div>
+
+            <div class="weekly-highlight-img-dash">
+                <h3>New Porsche Macan GTS.</h3> <br>
+                <p>New Macan GTS: highlights in the aspects where others get lost in the crowd. 
+                   Young, dynamic and urban, with standard equipment, design features exclusive
+                   to the model and, of course, the traditional Porsche performance.</p>
+            </div>
         </div>
     </section>
 </body>

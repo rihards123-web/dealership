@@ -3,7 +3,7 @@
 </head>
 <div class="nav-bar-container">
    <div class="nav-bar-logo">
-        <a href="#"><img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="Logo"></a>
+        <a href="/"><img src="{{ Vite::asset('resources/images/logo.svg') }}" alt="Logo"></a>
    </div>
    <div class="nav-bar-links">
      <ul>
