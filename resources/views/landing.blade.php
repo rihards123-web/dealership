@@ -104,5 +104,25 @@
             </div>
         </div>
     </section>
+
+       <section class="landing-latest-sales">
+        <div class="latest-sales-content">
+            <div class="latest-sales-heading">
+                <h2>Latest sales</h2>
+            </div>
+
+            <div class="latest-sales-models">
+                <div class="latest-sales-1">
+                    <img src="{{ Vite::asset('resources/images/RAM.png') }}" alt="ram" id="sale_image">
+                </div>
+                <div class="latest-sales-2">
+                    <img src="{{ Vite::asset('resources/images/SW4.png') }}" alt="sw4" id="sale_image">
+                </div>
+                <div class="latest-sales-3">
+                    <img src="{{ Vite::asset('resources/images/SEA-DOO.png') }}" alt="sea-doo" id="sale_image">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
